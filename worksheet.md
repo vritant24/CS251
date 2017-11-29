@@ -10,11 +10,16 @@
 ```
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < n; j *= 2) {
-            System.out.println("WHY IS THIS A QUESTION?");
+            func("You think this is a little confusing?");
+        }
+    }
+    for(int p = n; p >= 0; p -= 2) {
+        for(int k = n/2; k >=0; k = k/2) {
+            func("Suffer");
         }
     }
 ```
-2. How many times will the print statement be executed (in the asymptotic sense)
+2. How many times will the function `func` be executed (in the asymptotic sense)
     1. O(logn)
     2. O(nlogn)
     3. O(n)
@@ -22,18 +27,18 @@
 
 ---
 ```
-    public power(long x, intn) {
+    public power(long x, int n) {
         double pow = 1;
-        if(n==0)
+        if(n == 0)
             return 1;
         if (n == 1)
             return x;
-        if(n%2==0){
-            pow = power(x, n/2);
+        if(n % 2 == 0){
+            pow = power(x, n / 2);
             return pow * pow; 
         }
         else{
-            pow = power(x, n/2);
+            pow = power(x, n / 2);
             return pow * pow * x;
         }
     }
@@ -93,4 +98,38 @@
     2. Insert(30)
     3. Insert(5)
     4. Insert(17)
-    
+
+--- 
+10. Bob uses a stack instead of a queue when implementing breadth-first search (BFS) on an undirected graph G (no weights on the edges).
+BFS with a stack starting at vertex s correctly computes single source shortest paths entries (from to every vertex).
+
+    1. True
+    2. False
+
+---
+![Question 11](images/q11.png "min heap tree")
+
+11. A DFS is started at vertex A. The adjacency lists contain vertices in sorted order (smallest to largest). What type of edge is <G,J> in the DFS exploration?
+    1. Tree edge
+    2. Cross edge
+    3. Forward edge
+    4. Back edge
+
+---
+![Question 12](images/q12.png "min heap tree")
+
+12. The DAG below represents course prerequisites.If a student can take at most 2 courses per semester, does the minimum number of semesters needed equal the number of vertices on the longest path?
+
+    1. Yes
+    2. No
+    3. Spare me
+
+---
+![Question 13](images/q13.png "min heap tree")
+
+13. A DFS is started at vertex A. Which of the orderings cannot be the result of visiting the vertices during DSF? (You don’t know how vertices are arranged in the adjacency lists.)
+
+    1. ADBCEGHF
+    2. ADFBCEHG
+    3. ABDFCEGH
+    4. ABDCEGHF
