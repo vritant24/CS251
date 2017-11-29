@@ -133,3 +133,42 @@ BFS with a stack starting at vertex s correctly computes single source shortest 
     2. ADFBCEHG
     3. ABDFCEGH
     4. ABDCEGHF
+
+---
+14. What is the maximum number of leaves a binary search tree, of size h, can have?
+    1. h
+    2. h^2
+    3. 2^h
+    4. h^h
+
+---
+15. A data structure on nelements needs to support the operations insert, search, delete, and report-minin O(log n) worst-case time per operation. What data structure achieves this bound?
+
+    1. Priority queue (implemented as a heap)
+    2. Linked list with elements maintained in sorted order
+    3. Binary Search tree
+    4. Balanced Search tree
+    5. Hashing
+
+---
+16. H is a max-heap built on n elements.What operations run in time O(log n)?
+
+    1. Insert(x) [no searching needed]
+    2. Extract max
+    3. Search(x)
+    4. Delete(x) [knowing where x is]
+
+---
+17. G is directed graph represented by an adjacency matrix A. Given three vertices u, v, and w, we can determine whether they form a triangle in what time?
+
+    1. O(1)
+    2. O(log n)
+    3. O(n)
+    4. O(n + m)
+
+---
+18. G=(V,E) is an undirected graph with n vertices and m edgesrepresented by adjacency lists. We can determine whether G contains 6 vertices having degree 3 in what time? Choose the smallest time bound achievable.
+    1. O(1)
+    2. O(n^2)
+    3. O(n)
+    4. O(n + m)
