@@ -59,8 +59,5 @@
     5. O(logn)
 
 ---
-![alt text][q6]
+![Question](images/q6.png "min heap tree")
 6. 
-
-
-[q6]: https://github.com/vritant24/CS251/tree/master/images/q6.png "min heap tree"
