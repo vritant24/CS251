@@ -172,3 +172,7 @@ BFS with a stack starting at vertex s correctly computes single source shortest 
     2. O(n^2)
     3. O(n)
     4. O(n + m)
+
+---
+Many questions are based on Susanne Hambruche's clicker questions from Fall 2016.
+![AMCS](images/amcs_logo.png "AMCS Logo")
