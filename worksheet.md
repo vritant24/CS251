@@ -175,4 +175,5 @@ BFS with a stack starting at vertex s correctly computes single source shortest 
 
 ---
 Many questions are based on Susanne Hambruche's clicker questions from Fall 2016.
-![AMCS](images/amcs_logo.png "AMCS Logo")
+
+<img src="images/amcs_logo.png" alt="Drawing" style="width: 100px;"/>
