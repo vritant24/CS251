@@ -1,6 +1,4 @@
-Complexity - http://bigocheatsheet.com/
-
-For review - >
+[Complexity Cheat Sheet](http://bigocheatsheet.com/)
 
 [Kruskal's algorithm](https://www.youtube.com/watch?v=71UQH7Pr9kU)
 
