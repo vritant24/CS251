@@ -14,7 +14,7 @@
 
 ---
 
-## Algoithms
+## Algorithms
 [Kruskal's algorithm](https://www.youtube.com/watch?v=71UQH7Pr9kU)
 
 [Prim's algorithm](https://www.youtube.com/watch?v=cplfcGZmX7I)
