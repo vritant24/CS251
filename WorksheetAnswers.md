@@ -28,7 +28,7 @@
 
 14. 2^h
 
-15. Binary search tree. 
+15. Balanced binary search tree. 
     (priority queue -> search is O(n), 
     Linked List -> insert is O(n), 
     Binary search tree -> insert can be O(n)
