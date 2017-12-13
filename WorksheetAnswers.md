@@ -1,6 +1,6 @@
 ## Answers to the worksheet
 
-1. O(logn)
+1. O(nlogn)
 
 2. O(nlogn)
 
